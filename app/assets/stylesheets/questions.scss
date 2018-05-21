@@ -1,3 +1,83 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.header {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.question-wrapper {
+  display: flex;
+  padding: 20px 100px 20px 100px;
+  position: relative;
+}
+
+.question-wrapper h2 {
+  margin: 0px;
+  text-align: center;
+  padding: 15px 30px 15px 30px;
+  background-color: rgba(63, 191, 127, 0.61);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.answer-wrapper {
+  display: flex;
+  padding: 20px 100px 20px 100px;
+  height: 50px;
+  position: relative;
+}
+
+.answer-wrapper h2 {
+  margin: 0px;
+  text-align: center;
+  padding: 15px 30px 15px 30px;
+  background-color: rgba(63, 84, 191, 0.61);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  position: absolute;
+  right: 100px;
+}
+
+.link-wrapper {
+  position: relative;
+}
+
+.link-wrapper p {
+  position: absolute;
+  top: 80px;
+  left: 584px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 970px;
+  height: 70px;
+}
+
+#ask-form {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+
+#red-button {
+  width: 20%;
+  background-color: rgba(145, 43, 43, 0.9);
+  color: white;
+  justify-content: center;
+}
+
+#red-button:hover{
+  color: white;
+}
+
+

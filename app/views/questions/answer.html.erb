@@ -1,5 +1,21 @@
 <!-- <h1>Questions#answer</h1>
 <p>Find me in app/views/questions/answer.html.erb</p> -->
-<h2><%= @question %></h2>
-<h2>Coach: <%= @answer %></h2>
-<p><%= link_to "Talk to coach again", ask_path %></p>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Angry Coach</h1>
+    </div>
+    <div class="question-wrapper">
+      <h2><%= @question %></h2>
+    </div>
+    <div class="answer-wrapper">
+      <h2><%= @answer %></h2>
+    </div>
+    <div class="link-wrapper">
+      <p><%= link_to "Talk to coach again", ask_path %></p>
+    </div>
+  </body>
+</html>

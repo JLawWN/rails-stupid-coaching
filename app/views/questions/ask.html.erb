@@ -1,7 +1,21 @@
 <!-- <h1>Questions#ask</h1>
 <p>Find me in app/views/questions/ask.html.erb</p>
  -->
-<form action="/answer" method="get">
-  <input type="text" name="question" placeholder="Talk to your coach!">
-  <input type="submit" value="Ask!">
-</form>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Angry Coach</h1>
+    </div>
+    <div class="blue-wrapper">
+      <div class="container">
+        <form action="/answer" method="get" id="ask-form">
+          <input type="text" name="question" placeholder="Talk to your coach!">
+          <input type="submit" value="Ask!" id="red-button">
+        </form>
+    </div>
+  </div>
+  </body>
+</html>
